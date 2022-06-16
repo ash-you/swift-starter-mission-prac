@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26068A59285B7B9000473797 /* CoffeeShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26068A58285B7B9000473797 /* CoffeeShop.swift */; };
+		26068A5B285B7B9B00473797 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26068A5A285B7B9B00473797 /* Person.swift */; };
+		26068A5D285B822C00473797 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26068A5C285B822C00473797 /* Coffee.swift */; };
 		26889CCA2858CF6C00A113E6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26889CC92858CF6C00A113E6 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		26068A58285B7B9000473797 /* CoffeeShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeShop.swift; sourceTree = "<group>"; };
+		26068A5A285B7B9B00473797 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		26068A5C285B822C00473797 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		26889CC62858CF6C00A113E6 /* CodeStarterCamp_Week3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeStarterCamp_Week3; sourceTree = BUILT_PRODUCTS_DIR; };
 		26889CC92858CF6C00A113E6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				26889CC92858CF6C00A113E6 /* main.swift */,
+				26068A58285B7B9000473797 /* CoffeeShop.swift */,
+				26068A5A285B7B9B00473797 /* Person.swift */,
+				26068A5C285B822C00473797 /* Coffee.swift */,
 			);
 			path = CodeStarterCamp_Week3;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26068A5B285B7B9B00473797 /* Person.swift in Sources */,
 				26889CCA2858CF6C00A113E6 /* main.swift in Sources */,
+				26068A59285B7B9000473797 /* CoffeeShop.swift in Sources */,
+				26068A5D285B822C00473797 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

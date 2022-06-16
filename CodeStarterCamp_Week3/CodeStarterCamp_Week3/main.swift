@@ -7,52 +7,9 @@
 
 import Foundation
 
-class Person {
-    var money: Int = 0
-    var gender: Gender?
-    
-    enum Gender {
-        case male, female
-    }
-    
-    init(gender: Gender) {
-        self.gender = gender
-    }
-    
-    convenience init(money: Int, gender: Gender) {
-        self.init(gender: gender)
-        self.money = money
-    }
-    
-    func buyCoffee(menu: Coffee) {
-        
-    }
-}
+var misterLee: Person = Person(name: "lee", gender: Person.Gender.male)
+var missKim: Person = Person(name: "kim", gender: Person.Gender.female)
+var yagombucks: CoffeeShop = CoffeeShop(name: "yagombucks", barista: misterLee)
 
-var misterLee: Person = Person(gender: Person.Gender.male)
-var missKin: Person = Person(gender: Person.Gender.female)
-
-class CoffeeShop {
-    var sales: Int = 0
-    var menu: [String: Double] = [:]
-    var pickUpTable: Bool = false
-    var barista: Person?
-    
-    init(barista: Person) {
-        self.barista = barista
-    }
-    
-    func takeOrder() {
-        
-    }
-    
-    func makeCoffee() {
-        
-    }
-}
-
-var yagombucks: CoffeeShop = CoffeeShop(barista: misterLee)
-
-enum Coffee {
-    case americano, latte, espresso
-}
+missKim.money = 3000
+missKim.buyCoffee(coffee: Coffee.latte, coffeeShop: yagombucks)
