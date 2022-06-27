@@ -12,4 +12,5 @@ var missKim: Person = Person(name: "kim", gender: Person.Gender.female)
 var yagombucks: CoffeeShop = CoffeeShop(name: "yagombucks", barista: misterLee)
 
 missKim.money = 3000
-missKim.buyCoffee(coffee: Coffee.latte, coffeeShop: yagombucks)
+missKim.buyCoffee(menu: Coffee.latte, at: yagombucks)
+print(missKim.money)

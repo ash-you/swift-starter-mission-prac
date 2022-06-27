@@ -21,7 +21,7 @@ class Person {
         self.gender = gender
     }
     
-    func buyCoffee(coffee: Coffee, coffeeShop: CoffeeShop) {
+    func buyCoffee(menu coffee: Coffee, at coffeeShop: CoffeeShop) {
         print("현재 \(self.name)의 소지금은 \(self.money)원이며, \(coffeeShop.name)의 \(coffee.rawValue) 가격은 \(coffee.price)원입니다.")
         
         if self.money < coffee.price {
